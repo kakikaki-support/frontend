@@ -48,7 +48,7 @@ export const AuthProvider = ({ children }) => {
   const login = async (username, password) => {
     try {
       const response = await fetch(
-        "https://mystery-back.vercel.app/api/auth/user/login",
+        "https://backend-omega-eight-39.vercel.app/api/auth/user/login",
         {
           method: "POST",
           credentials: "include",
