@@ -1,4 +1,4 @@
-const API_URL = "https://mystery-back.vercel.app/api/user-management";
+const API_URL = "https://backend-omega-eight-39.vercel.app/api/user-management";
 
 export const fetchUserData = async (token, userId) => {
   try {
