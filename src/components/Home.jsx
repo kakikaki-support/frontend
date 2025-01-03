@@ -351,7 +351,9 @@ function Home() {
             whileTap={{ scale: 0.98 }}
             onClick={handleSubmit}
             disabled={
-              selectedBoxes.length !== (user?.credits || 0) || isLoading
+              user?.credits === 0 || 
+              selectedBoxes.length !== (user?.credits || 0) || 
+              isLoading
             }
             className={`mt-8 px-8 py-3 rounded-xl font-medium relative overflow-hidden
               ${
