@@ -181,7 +181,7 @@ export const getLoginText = async (token) => {
 export const updateLoginText = async (token, settings) => {
   try {
     const response = await fetch(
-      `https://backend-omega-eight-39.vercel.app/box-selection/admin/login-text`,
+      `https://backend-omega-eight-39.vercel.app/api/box-selection/admin/login-text`,
       {
         method: "PUT",
         headers: {
