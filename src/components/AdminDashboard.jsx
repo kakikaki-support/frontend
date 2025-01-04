@@ -14,9 +14,9 @@ import {
   updateLoginText,
 } from "../services/adminService";
 import { useNavigate } from "react-router-dom";
-import redBox from "../assets/BOX DESIGNS-01.png";
-import greenBox from "../assets/BOX DESIGNS-02.png";
-import greenBlackBox from "../assets/BOX DESIGNS-03.png";
+import redBox from "../assets/BOX DESIGNS-01.webp";
+import greenBox from "../assets/BOX DESIGNS-02.webp";
+import greenBlackBox from "../assets/BOX DESIGNS-03.webp";
 
 function AdminDashboard() {
   const { token, logout } = useAuth();
